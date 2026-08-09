@@ -1,919 +1,597 @@
 <!DOCTYPE html>
 <html lang="en" id="top">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<meta
-			name="description"
-			content="Wahid Mahmood is a Machine Learning Engineer at ReliSource. He have engineered various end-to-end AI solutions and first authored 2 IEEE conference paper." />
-		<meta
-			name="keywords"
-			content="Machine Learning Engineer, Python Developer, Open Source, Research and Development, Software Developer, AI Engineer, Portfolio" />
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Wahid Mahmood — Machine Learning Engineer &amp; Researcher</title>
 
-		<meta name="description" content="Page description" />
-		<meta property="og:title" content="Wahid Mahmood - Machine Learning Engineer" />
-		<meta
-			property="og:description"
-			content="Wahid Mahmood is a Machine Learning Engineer at ReliSource. He have engineered various end-to-end AI solutions and first authored 2 IEEE conference paper." />
-		<meta
-			property="og:image"
-			content="wahidmshafin.github.io/assets/myimage2.jpg" />
-		<meta property="og:image:alt" content="Wahid Mahmood" />
-		<meta property="og:locale" content="en_GB" />
-		<meta property="og:type" content="website" />
-		<meta name="twitter:card" content="summary_large_image" />
-		<meta property="og:url" content="https://wahidmshafin.github.io" />
-		<meta name="twitter:card" content="summary" />
-		<meta name="theme-color" content="#000000" />
-		<meta name="robots" content="index, follow" />
+<meta name="description" content="Wahid Mahmood is a Machine Learning Engineer at ReliSource and a KUET CSE graduate. He works on remote sensing change detection, explainable AI, and agentic LLM systems, with two IEEE conference papers as first author." />
+<meta name="keywords" content="Wahid Mahmood, Machine Learning Engineer, change detection, remote sensing, explainable AI, agentic AI, LLM, NLP, KUET, ReliSource" />
+<meta name="author" content="Wahid Mahmood" />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://wahidmshafin.github.io/" />
 
-		<link rel="icon" href="./assets/myimage2.jpg" />
-		<link rel="icon" href="/myimage2.jpg" />
-		<link rel="apple-touch-icon" href="./assets/myimage2.jpg" />
-		<link rel="stylesheet" href="styles.css" />
-		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
-		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<meta property="og:type" content="profile" />
+<meta property="og:title" content="Wahid Mahmood — Machine Learning Engineer &amp; Researcher" />
+<meta property="og:description" content="Remote sensing change detection, explainable AI, and agentic LLM systems. Two IEEE conference papers as first author." />
+<meta property="og:url" content="https://wahidmshafin.github.io/" />
+<meta property="og:image" content="https://wahidmshafin.github.io/assets/mypic.jpg" />
+<meta property="og:image:alt" content="Wahid Mahmood" />
+<meta property="og:locale" content="en_GB" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="theme-color" content="#F3F5F1" media="(prefers-color-scheme: light)" />
+<meta name="theme-color" content="#0D1411" media="(prefers-color-scheme: dark)" />
 
-		<!-- boxicons -->
-		<script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-		<script src="./script.js" defer></script>
-		<title>Wahid Mahmood - Machine Learning Engineer</title>
-	</head>
-	<body>
-		<!-- only for keyboard users -->
-		<a class="skip-to-content" href="#main-content">Skip to content</a>
+<link rel="icon" href="./assets/myimage2.jpg" />
+<link rel="apple-touch-icon" href="./assets/myimage2.jpg" />
 
-		<header class="main-header">
-			<nav class="nav slide-in-top">
-				<div class="container">
-					<a href="#">
-						<img src="./assets/myimage2.jpg" alt="Wahid" class="logo" />
-						<title>Logo</title>
-					</a>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="styles.css" />
 
-					<ul class="nav-list">
-						<li>
-							<a href="#about" class="nav-links hover-effect">About</a>
-						</li>
-						<li>
-							<a href="#educations" class="nav-links hover-effect">Education</a>
-						</li>
-						<li>
-							<a href="#publications" class="nav-links hover-effect">Publications</a>
-						</li>						
-						<li>
-							<a href="#experience" class="nav-links hover-effect">Experience</a>
-						</li>						
-						<li>
-							<a href="#projects" class="nav-links hover-effect">Projects</a>
-						</li>
-						<li>
-							<a href="#skills" class="nav-links hover-effect">Skills</a>
-						</li>
-						<li>
-							<a href="#achievements" class="nav-links hover-effect">Achievements</a>
-						</li>
-						<li>
-							<a href="#contact" class="nav-links hover-effect">Contact</a>
-						</li>
-					</ul>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Wahid Mahmood",
+  "jobTitle": "Machine Learning Engineer",
+  "email": "mailto:wahidmshafin@gmail.com",
+  "url": "https://wahidmshafin.github.io/",
+  "worksFor": { "@type": "Organization", "name": "ReliSource Technologies Ltd" },
+  "alumniOf": { "@type": "CollegeOrUniversity", "name": "Khulna University of Engineering & Technology (KUET)" },
+  "address": { "@type": "PostalAddress", "addressLocality": "Dhaka", "addressCountry": "BD" },
+  "knowsAbout": ["Natural Language Processing","Explainable AI","Large Language Models","Agentic AI","Reinforcement Learning","Human-AI Interaction","Remote Sensing Change Detection"],
+  "sameAs": [
+    "https://github.com/Wahidmshafin",
+    "https://www.linkedin.com/in/wahidmshafin",
+    "https://www.researchgate.net/profile/Wahid-Mahmood-Shafin"
+  ]
+}
+</script>
+</head>
 
-					<ul class="social-nav">
-						<li>
-							<a
-								href="https://www.researchgate.net/profile/Wahid-Mahmood-Shafin"
-								rel="noreferrer"
-								target="_blank"
-								aria-label="link to researchgate profile profile">
-								<svg width="18px" height="18px" viewBox="0 0 24 24" role="img" style="fill: currentColor;" xmlns="http://www.w3.org/2000/svg"><title>ResearchGate icon</title><path d="M19.586 0c-.818 0-1.508.19-2.073.565-.563.377-.97.936-1.213 1.68a3.193 3.193 0 0 0-.112.437 8.365 8.365 0 0 0-.078.53 9 9 0 0 0-.05.727c-.01.282-.013.621-.013 1.016a31.121 31.123 0 0 0 .014 1.017 9 9 0 0 0 .05.727 7.946 7.946 0 0 0 .077.53h-.005a3.334 3.334 0 0 0 .113.438c.245.743.65 1.303 1.214 1.68.565.376 1.256.564 2.075.564.8 0 1.536-.213 2.105-.603.57-.39.94-.916 1.175-1.65.076-.235.135-.558.177-.93a10.9 10.9 0 0 0 .043-1.207v-.82c0-.095-.047-.142-.14-.142h-3.064c-.094 0-.14.047-.14.141v.956c0 .094.046.14.14.14h1.666c.056 0 .084.03.084.086 0 .36 0 .62-.036.865-.038.244-.1.447-.147.606-.108.385-.348.664-.638.876-.29.212-.738.35-1.227.35-.545 0-.901-.15-1.21-.353-.306-.203-.517-.454-.67-.915a3.136 3.136 0 0 1-.147-.762 17.366 17.367 0 0 1-.034-.656c-.01-.26-.014-.572-.014-.939a26.401 26.403 0 0 1 .014-.938 15.821 15.822 0 0 1 .035-.656 3.19 3.19 0 0 1 .148-.76 1.89 1.89 0 0 1 .742-1.01c.344-.244.593-.352 1.137-.352.508 0 .815.096 1.144.303.33.207.528.492.764.925.047.094.111.118.198.07l1.044-.43c.075-.048.09-.115.042-.199a3.549 3.549 0 0 0-.466-.742 3 3 0 0 0-.679-.607 3.313 3.313 0 0 0-.903-.41A4.068 4.068 0 0 0 19.586 0zM8.217 5.836c-1.69 0-3.036.086-4.297.086-1.146 0-2.291 0-3.007-.029v.831l1.088.2c.744.144 1.174.488 1.174 2.264v11.288c0 1.777-.43 2.12-1.174 2.263l-1.088.2v.832c.773-.029 2.12-.086 3.465-.086 1.29 0 2.951.057 3.667.086v-.831l-1.49-.2c-.773-.115-1.174-.487-1.174-2.264v-4.784c.688.057 1.29.057 2.206.057 1.748 3.123 3.41 5.472 4.355 6.56.86 1.032 2.177 1.691 3.839 1.691.487 0 1.003-.086 1.318-.23v-.744c-1.031 0-2.063-.716-2.808-1.518-1.26-1.376-2.95-3.582-4.355-6.074 2.32-.545 4.04-2.722 4.04-4.9 0-3.208-2.492-4.698-5.758-4.698zm-.515 1.29c2.406 0 3.839 1.26 3.839 3.552 0 2.263-1.547 3.782-4.097 3.782-.974 0-1.404-.03-2.063-.086v-7.19c.66-.059 1.547-.059 2.32-.059z"/></svg>
-							</a>
-						</li>
-						<li>
-							<a
-								href="https://www.linkedin.com/in/wahidmshafin"
-								rel="noreferrer"
-								target="_blank"
-								aria-label="link to linkedin profile"
-								><svg
-									xmlns="http://www.w3.org/2000/svg"
-									width="18"
-									height="18"
-									viewBox="0 0 24 24"
-									style="fill: currentColor">
-									<circle cx="4.983" cy="5.009" r="2.188"></circle>
-									<path
-										d="M9.237 8.855v12.139h3.769v-6.003c0-1.584.298-3.118 2.262-3.118 1.937 0 1.961 1.811 1.961 3.218v5.904H21v-6.657c0-3.27-.704-5.783-4.526-5.783-1.835 0-3.065 1.007-3.568 1.96h-.051v-1.66H9.237zm-6.142 0H6.87v12.139H3.095z"></path>
-								</svg>
-							</a>
-						</li>
-						<li>
-							<a
-								href="https://github.com/Wahidmshafin"
-								rel="noreferrer"
-								target="_blank"
-								aria-label="link to github account"
-								><svg
-									xmlns="http://www.w3.org/2000/svg"
-									width="18"
-									height="18"
-									viewBox="0 0 24 24"
-									style="fill: currentColor">
-									<path
-										fill-rule="evenodd"
-										clip-rule="evenodd"
-										d="M12.026 2c-5.509 0-9.974 4.465-9.974 9.974 0 4.406 2.857 8.145 6.821 9.465.499.09.679-.217.679-.481 0-.237-.008-.865-.011-1.696-2.775.602-3.361-1.338-3.361-1.338-.452-1.152-1.107-1.459-1.107-1.459-.905-.619.069-.605.069-.605 1.002.07 1.527 1.028 1.527 1.028.89 1.524 2.336 1.084 2.902.829.091-.645.351-1.085.635-1.334-2.214-.251-4.542-1.107-4.542-4.93 0-1.087.389-1.979 1.024-2.675-.101-.253-.446-1.268.099-2.64 0 0 .837-.269 2.742 1.021a9.582 9.582 0 0 1 2.496-.336 9.554 9.554 0 0 1 2.496.336c1.906-1.291 2.742-1.021 2.742-1.021.545 1.372.203 2.387.099 2.64.64.696 1.024 1.587 1.024 2.675 0 3.833-2.33 4.675-4.552 4.922.355.308.675.916.675 1.846 0 1.334-.012 2.41-.012 2.737 0 .267.178.577.687.479C19.146 20.115 22 16.379 22 11.974 22 6.465 17.535 2 12.026 2z"></path>
-								</svg>
-							</a>
-						</li>
-					</ul>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
 
-					<div class="hamburger">
-						<div class="line-menu half start"></div>
-						<div class="line-menu"></div>
-						<div class="line-menu half end"></div>
-					</div>
-				</div>
-			</nav>
-		</header>
+<!-- ================= HEADER ================= -->
+<header class="site-header">
+  <div class="shell header-row">
+    <a class="wordmark" href="#top">
+      <span class="wordmark-name">Wahid Mahmood</span>
+      <span class="wordmark-role">ML Engineer &amp; Researcher</span>
+    </a>
 
-		<main id="main-content">
-			<!-- hero section -->
-			<section class="hero">
-				<div class="container">
-					<article class="hero-text bounce-in-left">
-						<div>
-							<p class="subtitle">hi there 👋🏽, i'm</p>
-							<h1 class="name">Wahid Mahmood</h1>
-						</div>
-						<div>
-							<p class="intro">
-								A Machine Learning Engineer specializing in both cutting-edge research and intelligent system development that solve real world problems.
-							</p>
+    <nav class="site-nav" id="site-nav" aria-label="Sections">
+      <ul>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#publications" class="nav-link">Publications</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#awards" class="nav-link">Awards</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+        <li class="nav-cv"><a href="assets/Academic_CV.pdf" target="_blank" rel="noreferrer">Download CV (PDF)</a></li>
+      </ul>
+    </nav>
 
-							<div class="hero-btn-container">
-								<a href="mailto:wahidmshafin@gmail.com" class="btn hire-btn">
-									Hire Me
-								</a>
-								<a href="assets/Academic_CV.pdf" class="btn download-link"
-									>Download CV</a
-								>
-							</div>
-						</div>
-					</article>
-					<img
-						src="./assets/coding-ground.png"
-						alt="coding desk"
-						class="fade-in code" />
-				</div>
-			</section>
+    <div class="header-tools">
+      <a class="btn btn-quiet" href="assets/Academic_CV.pdf" target="_blank" rel="noreferrer">CV (PDF)</a>
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch to dark theme">
+        <svg class="icon-sun" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><g stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.2 5.2l1.6 1.6M17.2 17.2l1.6 1.6M18.8 5.2l-1.6 1.6M6.8 17.2l-1.6 1.6"/></g></svg>
+        <svg class="icon-moon" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M20 14.2A8.2 8.2 0 0 1 9.8 4a8.4 8.4 0 1 0 10.2 10.2z" fill="currentColor"/></svg>
+      </button>
+      <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
 
-			<!-- about section -->
-			<section class="about-me" id="about">
-				<div class="container" data-aos="fade-up">
-					<img src="./assets/mypic.jpg" alt="Wahid Mahmood" />
-					<article>
-						<!-- <p class="subtitle">Who is Williams Samuel?</p> -->
-						<h2 class="title">About Me</h2>
-						<div class="about">
-                <p>
-                    I am a dedicated and dynamic Machine Learning Engineer at ReliSource, driven by curiosity and a commitment to continuous growth.
-                </p>
-                <!-- <p class="info">
-					<h1>Khulna University of Engineering & Technology (KUET) </h1>
-					<h2>B.Sc in Computer Science and Engineering</h2>
-					<h3>CGPA: 3.53/4.0</h3>
+<main id="main">
 
-                </p> -->
-                <p>
-                    Passionate about learning, I consistently strive to enhance my skills and stay at the forefront of innovation. I thrive on challenges and approach problems with enthusiasm and determination. 
-                </p>
-                <p>
-                    Beyond my professional expertise, I value effective communication and collaboration. I also enjoy intellectual pursuits such as playing chess and watching football, which help me relax and grow personally.
-                </p>
-            </div>
-					</article>
-				</div>
-			</section>
+<!-- ================= HERO ================= -->
+<section class="hero">
+  <div class="shell hero-grid">
+    <div class="hero-text">
+      <p class="eyebrow">Machine Learning Engineer &mdash; ReliSource, Dhaka</p>
+      <h1 class="hero-name">Wahid <em>Mahmood</em></h1>
+      <p class="hero-lede">
+     A Machine Learning Engineer specializing in both cutting-edge research and intelligent system development that solve real world problems.
+      </p>
 
-			<!-- my skills -->
-			<section class="my-skills" id="educations" data-aos="fade-up">
-				<div class="container">
-					<article>
-						<p class="subtitle">Educations</p>
-						<h2 class="title">Khulna University of Engineering & Technology (KUET)</h2>
-						
-						<h1>B.Sc in Computer Science and Engineering (CSE)</h1>
-						<h1>---------------------------------------------------------------------------------------</h1>
-						<h2>CGPA: 3.53/4.0</h2>
-					</article>
-					<ul>
-						<li>Natural Language Processing</li>
-						<li>Statistics</li>
-						<li>Data Mining</li>
-						<li>Image Processing and Computer Vision</li>
-						<li>Artificial Intelligence</li>
-						<li>Linear Algebra</li>
-						<li>Database System</li>
-						<li>Operating System</li>
-						
-						
-					</ul>
-				</div>
-			</section>
+      <ul class="interest-tags" aria-label="Research interests">
+        <li>Computer Vision</li><li>Explainable AI</li><li>Graph RAG</li><li>Agentic AI</li>
+        <li>Reinforcement Learning</li><li>Human&ndash;AI Interaction</li>
+      </ul>
 
+      <div class="hero-actions">
+        <a class="btn btn-solid" href="mailto:wahidmshafin@gmail.com">Email me</a>
+        <a class="btn btn-outline" href="assets/Academic_CV.pdf" target="_blank" rel="noreferrer">Download CV</a>
+      </div>
 
-				<!-- Thesis and Papers section -->
-			<section class="projects-section" id="publications">
-				<div class="container">
-					<article data-aos="fade-up">
-						<p class="subtitle">Research Work</p>
-						<h2 class="title">Thesis and Publications</h2>
-					</article>
-					<section class="projects">
-						<!-- 01 -->
-						<article class="project">
-							<a
-								href=""
-								target="_blank"
-								rel="noreferrer"
-								class="project-img"
-								><img
-									height="450px"
-									width="450px"
-									src="./assets/thesis-pic.png"
-									alt="Thesis"
-									title="Thesis"
-							/></a>
-							<div>
-								<h3>Thesis</h3>
-								<h1 style="padding-top: 10px;">Study on Agricultural Land Reduction in Bangladesh using Satellite Images</h1>
-								<ul class="tech-stack">
-									<li>Wahid Mahmood</li>
-									<li>Dr. Sk. Md. Masudul Ahsan</li>
-								</ul>
-								<p>
-									<li>Collected and preprocessed raw remote sensing image over the area of Bangladesh from Sentinel-2 satellite</li>
-									<li>Created agricultural land change detection dataset consisting over 500 image pairs over the area of Bangladesh.</li>
-									<li>Explored multiple ML techniques (XGBoost, SVM) and extended the open sourced framework called Open-CD</li>
-								</p>
-								<ul class="project-links">
-									<!-- <li>
-										<a
-											href="https://www.lavidluxe.com/"
-											target="_blank"
-											rel="noreferrer"
-											class="hover-effect"
-											>Live Site →</a
-										>
-									</li> -->
-									<li>
-										<a
-											href="https://github.com/Wahidmshafin/open-cd"
-											target="_blank"
-											rel="noreferrer"
-											class="hover-effect"
-											>Github →</a
-										>
-									</li>
-								</ul>
-							</div>
-						</article>
+      <ul class="hero-links">
+        <li><a href="https://scholar.google.com/citations?user=eUgvG8AAAAAJ&hl=en" target="_blank" rel="noreferrer">Google Scholar</a></li>
+        <li><a href="https://www.researchgate.net/profile/Wahid-Mahmood-Shafin" target="_blank" rel="noreferrer">ResearchGate</a></li>
+        <li><a href="https://github.com/Wahidmshafin" target="_blank" rel="noreferrer">GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/wahidmshafin" target="_blank" rel="noreferrer">LinkedIn</a></li>
+      </ul>
+    </div>
 
-						<!-- 02 -->
-						<article class="project">
-							<a
-								href="assets/Poster-prototype.pdf"
-								target="_blank"
-								rel="noreferrer"
-								class="project-img"
-								><img
-									src="./assets/poster-main.png"
-									alt="flowchart"
-									title="flowchart"
-							/></a>
-							<div>
-								<h3>Paper 1</h3>
-								<h1 style="padding-top: 10px;">A Semi-Supervised Approach For Detecting Agricultural Land Reduction In Bangladesh Using Satellite Images</h1>
-								<h4 style="padding-top: 10px;"> <i>IEEE International Conference on Computing, Communication, and Intelligent Systems (COMPAS), 2024.</i> DOI: 10.1109/COMPAS60761.2024.10795941 </h4>
-								<ul class="tech-stack">
-									<li>Wahid Mahmood</li>
-									<li>Dr. Sk. Md. Masudul Ahsan</li>
-								</ul>
-								<p>
-									<li>Developed a novel semi-supervised approach for agricultural land change detection, which significantly reduced the time and hardship required for manual annotation.</li>
-									<li>Further evaluated the created dataset with other deep learning methodologies.</li>
-									<li>Presented poster on this topic.</li>
-								</p>
-								
-								<ul class="project-links">
-									<li>
-										<a
-											href="https://doi.org/10.1109/COMPAS60761.2024.10795941"
-											target="_blank"
-											rel="noreferrer"
-											class="hover-effect"
-											>Link →</a
-										>
-									</li>
-									<li>
-										<a
-											href="assets/Poster-prototype.pdf"
-											target="_blank"
-											rel="noreferrer"
-											class="hover-effect"
-											>Poster →</a
-										>
-									</li>
-								</ul>
-							</div>
-						</article>
+    <!-- signature element: change-detection viewer -->
+    <figure class="cd-figure">
+      <div class="cd-frame" id="cd-frame">
+        <div class="cd-layer cd-after" id="cd-after"></div>
+        <div class="cd-layer cd-before" id="cd-before"></div>
+        <span class="cd-stamp cd-stamp-a">T&#8321; &middot; 2017</span>
+        <span class="cd-stamp cd-stamp-b">T&#8322; &middot; 2024</span>
+        <input class="cd-range" id="cd-range" type="range" min="0" max="100" value="52" step="0.5" aria-label="Reveal land cover change between 2017 and 2024" />
+        <div class="cd-handle" id="cd-handle" aria-hidden="true">
+          <span class="cd-grip">
+            <svg viewBox="0 0 24 24" width="14" height="14"><path d="M9.5 6 5 12l4.5 6M14.5 6l4.5 6-4.5 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+        </div>
+      </div>
+      <figcaption class="cd-caption">
+        <span class="cd-legend"><i class="sw sw-veg"></i>Cropland</span>
+        <span class="cd-legend"><i class="sw sw-built"></i>Converted</span>
+        <span class="cd-delta" id="cd-delta"></span>
+        <span class="cd-note">Drag to compare. Illustrative parcels, not measured data &mdash; the real work is in the thesis below.</span>
+      </figcaption>
+    </figure>
+  </div>
+</section>
 
-						<article class="project">
-							<a
-								href="#"
-								target="_blank"
-								rel="noreferrer"
-								class="project-img"
-								><img
-									src="./assets/main.svg"
-									alt="Main architecture"
-									title="architecture"
-							/></a>
-							<div>
-								<h3>Paper 2</h3>
-								<h1 style="padding-top: 10px;">NSNUNet: A Neighbourhood Attention Based Siamese Nested Unet for Change Detection using Satellite Images</h1>
-								<h4 style="padding-top: 10px;"> <i>IEEE International Conference on Computer and Information Technology (ICCIT), 2024.</i>DOI: 10.1109/ICCIT64611.2024.11022454</h4>
-								<ul class="tech-stack">
-									<li>Wahid Mahmood</li>
-									<li>Taslima Akhter</li>
-									<li>Dr. Sk. Md. Masudul Ahsan</li>
-								</ul>
-								<p>
-									<li>Proposed a novel neighborhood attention based UNet architecture, improving accuracy and efficiency in remote sensing change detection.</li>
-									<li>The proposed model was evaluated on both low resolution and high resolution image dataset, outperforming other methodologies on both</li>
-								</p>
-								
-								<ul class="project-links">
-									<li>
-										<a
-											href="https://doi.org/10.1109/ICCIT64611.2024.11022454"
-											target="_blank"
-											rel="noreferrer"
-											class="hover-effect"
-											>Link →</a
-										>
-									</li>
-									<li>
-										<a
-											href="https://github.com/Wahidmshafin/NSNUNet"
-											target="_blank"
-											rel="noreferrer"
-											class="hover-effect"
-											>Github →</a
-										>
-									</li>
-								</ul>
-							</div>
-						</article>
+<!-- ================= ABOUT ================= -->
+<section id="about" class="band">
+  <div class="shell about-grid">
+    <div class="about-portrait">
+      <img src="./assets/mypic.jpg" alt="Portrait of Wahid Mahmood" width="480" height="600" loading="lazy" />
+    </div>
+    <div>
+      <p class="section-label">01 &mdash; About</p>
+      <h2 class="section-title">Research first, shipped anyway</h2>
+      <div class="prose">
+        <p>
+          I am a Machine Learning Engineer at ReliSource in Dhaka, and a Computer Science
+          graduate of Khulna University of Engineering &amp; Technology (KUET).
+        </p>
+        <p>
+          My research started with a simple question: how much farmland has Bangladesh lost, and
+          can a model see it from orbit without an army of annotators? That led to a labelled
+          change detection dataset, a semi-supervised labelling method, and a new attention-based
+          segmentation architecture &mdash; two IEEE papers as first author.
+        </p>
+        <p>
+          At work I build and deploy agentic AI system, complex RAG system, knowledge graph under real latency 
+		  and accuracy budgets across healthcare and biomedical domain. My current interest sits where the
+          two meet &mdash; models that can explain what they saw, and agents whose decisions can be
+          audited.
+        </p>
+        <p>
+          Outside all this I play chess and follow football, both of which are mostly an excuse to
+          think about search under uncertainty.
+        </p>
+      </div>
 
+      <dl class="facts">
+        <div><dt>Education</dt><dd>B.Sc. in CSE, KUET &mdash; GPA 3.53/4.0<br /><span class="muted">Jan 2019 &ndash; Feb 2024</span></dd></div>
+        <div><dt>Position</dt><dd>ML Engineer, ReliSource<br /><span class="muted">June 2024 &ndash; present</span></dd></div>
+        <div><dt>Publications</dt><dd>2 IEEE conference papers<br /><span class="muted">1 in preparation</span></dd></div>
+        <div><dt>English</dt><dd>IELTS 7.5 overall<br /><span class="muted">August 2025</span></dd></div>
+      </dl>
+    </div>
+  </div>
+</section>
 
-						
-					</section>
+<!-- ================= PUBLICATIONS ================= -->
+<section id="publications" class="section">
+  <div class="shell">
+    <p class="section-label">02 &mdash; Research</p>
+    <h2 class="section-title">Publications</h2>
+    <p class="section-intro">
+      First author on all listed work. Author order follows the published record; DOIs link to IEEE Xplore.
+    </p>
 
+    <ol class="pub-list">
 
-			<section class="projects-section" id="experience">
-					<div class="container">
-						<article data-aos="fade-up">
-							<p class="subtitle">Work Experience</p>
-							<!-- <h2 class="title">Some Things I Built</h2>
-							<p class="info">
-							I like to stay busy and always have a project in the works. Take a
-							look at some of the applications I've have built
-							</p> -->
-						</article>
-					<!-- 04 -->
-						<article class="project">
-							<a
-								href="https://www.linkedin.com/company/relisource/"
-								target="_blank"
-								rel="noreferrer"
-								class="project-img"
-								><img
-									src="./assets/reliwork.png"
-									alt="Relisource"
-									title="relisource"
-							/></a>
-							<div>
-								<h3>ReliSource</h3>
-								<h1>Machine Learning Engineer</h1>
-								<ul class="tech-stack">
-									<li>June 2024 - Current</li>									
-								</ul>
-								<p>
-									
-									<li><b style="font-size: medium;">AI Chatbot:</b> RAG based customer service AI Chatbot using Langchain, FastAPI and OpenAI, which achieved 4-second response time, including source citation and message streaming by implementing efficient retrieval and answer generation workflows.</li>
-									<li>
-										<b style="font-size: medium;">Medical Inventory Demand Forecasting:</b> An effective medical inventory demand forecasting pipeline automates the prediction of medication needs using limited historical time-series data. Enhanced operational
- 									efficiency using multi step approach including temporal analysis, feature engineering and finally utilize agentic AI to generate actionable restocking recommendations.
-									</li>
-									<li>
-										<b style="font-size: medium;">Drug Discovery Pipeline:</b> ML-based drug discovery pipeline to screen and validate potential drug candidates including ADMET analysis, utilizing tools like AlphaFold, DeepChem, Biopython, RDKit etc.
-									</li>
- 									<li>
-										<b style="font-size: medium;">PDF Parsing:</b> Created a PDF parsing pipeline, which will extract necessary information from pdf using Data Embedding and LLM and store it on excel
-									</li>
-									
- 								</p>
-							</div>
-						</article>
-					</div>
-					</section>
+      <!-- P3 -->
+      <li class="pub">
+        <div class="pub-year"><span>2026</span><em class="pub-status">in prep.</em></div>
+        <div class="pub-body">
+          <h3 class="pub-title">Unveiling Overfitting Patterns: Explainable AI-Driven Benchmarking of LLMs, Deep Learning Models, and a Hybrid Framework for Medical Image Classification</h3>
+          <p class="pub-authors"><strong>W. Mahmood</strong>, N. Hasan, M. Mahadi, S. Shuvo, T. Joty, N. Siddique</p>
+          <p class="pub-venue">Manuscript in preparation &mdash; May 2026</p>
+          <ul class="pub-points">
+            <li>Formulated a methodology to assess the interpretability and decision-making rationale of both deep learning architectures and vision&ndash;language models.</li>
+            <li>Designed an evaluation pipeline covering image preprocessing, specialised dataset curation, and a novel hybrid model as a comparative baseline.</li>
+          </ul>
+          <ul class="pub-tags"><li>Explainable AI</li><li>VLMs</li><li>Medical imaging</li><li>Benchmarking</li></ul>
+        </div>
+      </li>
 
+      <!-- P2 -->
+      <li class="pub">
+        <div class="pub-year"><span>2024</span><em class="pub-status pub-status-pub">IEEE</em></div>
+        <div class="pub-body">
+          <h3 class="pub-title">NSNUNet: A Neighbourhood Attention Based Siamese Nested UNet for Change Detection using Satellite Images</h3>
+          <p class="pub-authors"><strong>W. Mahmood</strong>, T. Joty, S. M. M. Ahsan</p>
+          <p class="pub-venue">IEEE International Conference on Computer and Information Technology (<em>ICCIT</em>), December 2024</p>
+          <ul class="pub-points">
+            <li>Proposed a neighbourhood-attention UNet architecture that improves accuracy and efficiency in remote sensing change detection.</li>
+            <li>Evaluated on both low- and high-resolution datasets, outperforming the compared baselines on each.</li>
+          </ul>
+          <ul class="pub-tags"><li>Change detection</li><li>Attention</li><li>Segmentation</li><li>PyTorch</li></ul>
+          <div class="pub-actions">
+            <a class="chip-link" href="https://doi.org/10.1109/ICCIT64611.2024.11022454" target="_blank" rel="noreferrer">DOI <span class="mono">10.1109/ICCIT64611.2024.11022454</span></a>
+			<a class="chip-link chip-pdf" href="https://www.researchgate.net/publication/392563924_NSNUNet_A_Neighbourhood_Attention-Based_Siamese_Nested_Unet_for_Change_Detection_using_Satellite_Images" target="_blank" rel="noreferrer">Full text</a>
+            <a class="chip-link" href="https://github.com/Wahidmshafin/NSNUNet" target="_blank" rel="noreferrer">Code</a>
+            <button class="chip-link chip-btn" type="button" data-bibtex="nsnunet">Copy BibTeX</button>
+          </div>
+        </div>
+      </li>
 
+      <!-- P1 -->
+      <li class="pub">
+        <div class="pub-year"><span>2024</span><em class="pub-status pub-status-pub">IEEE</em></div>
+        <div class="pub-body">
+          <h3 class="pub-title">A Semi-Supervised Approach for Detecting Agricultural Land Reduction in Bangladesh Using Satellite Images</h3>
+          <p class="pub-authors"><strong>W. Mahmood</strong>, S. M. M. Ahsan</p>
+          <p class="pub-venue">IEEE International Conference on Computing, Communication, and Intelligent Systems (<em>COMPAS</em>), September 2024</p>
+          <ul class="pub-points">
+            <li>Developed a semi-supervised approach for agricultural land change detection that cuts the manual annotation effort substantially.</li>
+            <li>Benchmarked the resulting dataset against several deep learning methods; presented as a poster at the conference.</li>
+          </ul>
+          <ul class="pub-tags"><li>Semi-supervised</li><li>Sentinel-2</li><li>Dataset</li><li>Remote sensing</li></ul>
+          <div class="pub-actions">
+            <a class="chip-link" href="https://doi.org/10.1109/COMPAS60761.2024.10795941" target="_blank" rel="noreferrer">DOI <span class="mono">10.1109/COMPAS60761.2024.10795941</span></a>
+            <a class="chip-link chip-pdf" href="https://www.researchgate.net/publication/387258006_A_Semi-Supervised_Approach_For_Detecting_Agricultural_Land_Reduction_In_Bangladesh_Using_Satellite_Images" target="_blank" rel="noreferrer">Full text</a>
+			<a class="chip-link" href="assets/Poster-prototype.pdf" target="_blank" rel="noreferrer">Poster</a>
+            <button class="chip-link chip-btn" type="button" data-bibtex="compas">Copy BibTeX</button>
+          </div>
+        </div>
+      </li>
+    </ol>
 
-			<!-- projects section -->
-			<section class="projects-section" id="projects">
-				<div class="container">
-					<article data-aos="fade-up">
-						<p class="subtitle">Projects</p>
-						<h2 class="title">Some of my works</h2>
-						<!-- <p class="info">
-							I like to stay busy and always have a project in the works. Take a
-							look at some of the applications I've have built
-						</p> -->
-					</article>
-					<section class="projects">
-						<!-- 01 -->
-						<article class="project">
-							<a
-								href="https://www.lavidluxe.com/"
-								target="_blank"
-								rel="noreferrer"
-								class="project-img"
-								><img
-									src="./assets/Intent.png"
-									alt="product-search"
-									title="product-search"
-							/></a>
-							<div>
-								<h3>01</h3>
-								<h2>Intent Based Product Search</h2>
-								<p>
-									<li> A product search system for e-commerce sites which can detect the user’s intent using search history and query optimization and provide the most optimal search results.</li>
-									<li>Used finetuned model of llama 3.2 1B instruct and hybrid search for retrieving products with 2 sec latency.</li>
-								</p>
-								<ul class="tech-stack">
-									<li>Langchain</li>
-									<li>FastAPI</li>
-									<li>PGVector</li>
-									<li>Ollama</li>
-									<li>Redis</li>
-									<li>Langsmith</li>
-								</ul>
-								<ul class="project-links">
-									
-									<li>
-										<a
-											href="https://github.com/Wahidmshafin/Intent-based-product-search"
-											target="_blank"
-											rel="noreferrer"
-											class="hover-effect"
-											>Github →</a
-										>
-									</li>
-								</ul>
-							</div>
-						</article>
+    <!-- thesis -->
+    <div class="thesis">
+      <div class="thesis-media">
+        <img src="./assets/thesis-pic.png" alt="Change detection results from the undergraduate thesis" loading="lazy" />
+      </div>
+      <div class="thesis-body">
+        <p class="section-label">Undergraduate thesis &mdash; March 2024</p>
+        <h3 class="thesis-title">Study on Agricultural Land Reduction in Bangladesh using Satellite Images</h3>
+        <p class="thesis-sup">Supervisor: <strong>Dr. Sk. Md. Masudul Ahsan</strong>, Professor, Dept. of CSE, KUET</p>
+        <ul class="pub-points">
+          <li>Collected and preprocessed raw Sentinel-2 imagery covering Bangladesh.</li>
+          <li>Built an agricultural land change detection dataset of 500+ image pairs.</li>
+          <li>Explored XGBoost and SVM baselines, and extended the open-source Open-CD framework to handle imagery with more than three channels.</li>
+        </ul>
+        <div class="pub-actions">
+          <a class="chip-link" href="https://github.com/Wahidmshafin/open-cd" target="_blank" rel="noreferrer">Open-CD fork</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
-						<!-- 02 -->
-						<article class="project">
-							<a
-								href="https://themovieflix.netlify.app/"
-								target="_blank"
-								rel="noreferrer"
-								class="project-img"
-								><img
-									src="./assets/dokan_koi.png"
-									alt="dokankoi"
-									title="dokankoi"
-							/></a>
-							<div>
-								<h3>02</h3>
-								<h2>Dokan Koi?</h2>
-								<p>
-									<li>A Flutter-based e-commerce app connecting users with the best nearby stores and stores with all the customers of the area.</li>
-									<li>Features include shop location tracking, real-time updates, and notifications by utilizing Firebase for data storage, authentication, and file storage.</li>
-								</p>
-								<ul class="tech-stack">
-									<li>Flutter</li>
-									<li>Firebase</li>
-									<li>Google Map</li>
-								</ul>
-								<ul class="project-links">
-									<li>
-										<a
-											href="https://github.com/Wahidmshafin/dokan_koi"
-											target="_blank"
-											rel="noreferrer"
-											class="hover-effect"
-											>Github →</a
-										>
-									</li>
-								</ul>
-							</div>
-						</article>
+<!-- ================= EXPERIENCE ================= -->
+<section id="experience" class="band">
+  <div class="shell">
+    <p class="section-label">03 &mdash; Industry</p>
+    <h2 class="section-title">Experience</h2>
 
-						<!-- 03 -->
-						<article class="project">
-							<a
-								href="#"
-								target="_blank"
-								rel="noreferrer"
-								class="project-img"
-								><img
-									
-									src="./assets/score-all.png"
-									alt="scoreinside"
-									title="scoreinside"
-							/></a>
-							<div>
-								<h3>03</h3>
-								<h2>Score Inside</h2>
-								<p>
-									<li>An Android app that shows information about any football league’s fixtures, standings, results, match details, etc. of particular leagues.</li>
-									<li>Data is fetched from a REST API named SportDataApi uses RESTful libraries such as Retrofit2, Picasso, etc. to parse data</li>
-								</p>
-								<ul class="tech-stack">
-									<li>Java</li>
-									<li>Android Studio</li>
-								</ul>
-								<ul class="project-links">
-									
-									<li>
-										<a
-											href="https://github.com/Wahidmshafin/Score-Inside"
-											target="_blank"
-											rel="noreferrer"
-											class="hover-effect"
-											>Github →</a
-										>
-									</li>
-								</ul>
-							</div>
-						</article>
+    <article class="role">
+      <header class="role-head">
+        <div>
+          <h3 class="role-org">ReliSource Technologies Ltd</h3>
+          <p class="role-title">Machine Learning Engineer &middot; Dhaka, Bangladesh</p>
+        </div>
+        <p class="role-dates mono">June 2024 &mdash; present</p>
+      </header>
 
-						<!-- 04 -->
-						<article class="project">
-							<a
-								href="#"
-								target="_blank"
-								rel="noreferrer"
-								class="project-img"
-								><img
-									src="./assets/real_estate.png"
-									alt="real_estate"
-									title="real_estate"
-							/></a>
-							<div>
-								<h3>04</h3>
-								<h2>Real Estate BD</h2>
-								<p>
-									A real estate website which let user upload his property for sale or buy new apartment or house from other sellers.
-								</p>
-								<ul class="tech-stack">
-									<li>PHP</li>
-									<li>jQuery</li>
-									<li>Bootstrap</li>
-									<li>MySQL</li>
-									
-								</ul>
-								<ul class="project-links">
-									
+      <div class="work-grid">
+        <article class="work">
+          <h4>Protocol Extractor</h4>
+          <p>An agentic RAG pipeline that pulls structured information out of complex clinical trial protocols.</p>
+          <ul>
+            <li>Markdown header-based chunking plus cross-encoder reranking, reaching <strong>85% accuracy</strong> on BERTScore and semantic similarity.</li>
+            <li>Automated response validation and a human-in-the-loop review path that feeds few-shot examples back in.</li>
+            <li>Runs fully offline for data-sensitive clients.</li>
+          </ul>
+          <ul class="tagline"><li>LangGraph</li><li>FastAPI</li><li>Qdrant</li><li>LM Studio</li></ul>
+        </article>
 
-									<li>
-										<a
-											href="https://github.com/Wahidmshafin/Real-Estate-BD"
-											target="_blank"
-											rel="noreferrer"
-											class="hover-effect">
-											Github →
-										</a>
-									</li>
-								</ul>
-							</div>
-						</article>
+        <article class="work">
+          <h4>Agentic Medical Inventory Manager</h4>
+          <p>End-to-end demand forecasting and restocking for medical inventory with sparse history.</p>
+          <ul>
+            <li>Time-series forecasting paired with an LLM decision loop for restocking calls.</li>
+            <li>News, weather, and holiday signals become contextual demand multipliers.</li>
+            <li>Integer linear programming turns forecasts into budget-constrained purchase orders.</li>
+          </ul>
+          <ul class="tagline"><li>Forecasting</li><li>Agentic AI</li><li>ILP</li><li>statsmodels</li></ul>
+        </article>
 
-						<!-- 05 -->
-						<article class="project">
-							<a
-								href="#"
-								target="_blank"
-								rel="noreferrer"
-								class="project-img"
-								><img
-									
-									src="./assets/cardio-all.png"
-									alt="cardiac"
-									title="cardiac"
-							/>
-						</a>
-							<div>
-								<h3>05</h3>
-								<h2>Cardio Recorder</h2>
-								<p>
-									<li>An android application which help user monitor his blood pressure and heart rate. </li>
-									<li>This app help user to record his daily heart and blood measurement and highlight the unusual measurements.</li>
-								</p>
-								<ul class="tech-stack">
-									<li>Java</li>
-									<li>Android Studio</li>
-									<li>Firebase</li>
-									
-								</ul>
-								<ul class="project-links">
-									
-									<li>
-										<a
-											href="https://github.com/Wahidmshafin/Cardiac-Recorder-74-75-"
-											target="_blank"
-											rel="noreferrer"
-											class="hover-effect"
-											>Github →</a
-										>
-									</li>
-								</ul>
-							</div>
-						</article>
+        <article class="work">
+          <h4>Customer Service AI Chatbot</h4>
+          <p>Retrieval-augmented support assistant with citations users can check.</p>
+          <ul>
+            <li><strong>4-second</strong> end-to-end response time with streamed answers.</li>
+            <li>Source citation on every answer through a tuned retrieval and generation workflow.</li>
+          </ul>
+          <ul class="tagline"><li>LangChain</li><li>OpenAI</li><li>FastAPI</li></ul>
+        </article>
 
-					</section>
+        <article class="work">
+          <h4>Drug Discovery Pipeline</h4>
+          <p>ML screening and validation of candidate compounds, including ADMET analysis.</p>
+          <ul>
+            <li>Structure and property prediction built on AlphaFold, DeepChem, RDKit, and Biopython.</li>
+          </ul>
+          <ul class="tagline"><li>DeepChem</li><li>RDKit</li><li>Biopython</li></ul>
+        </article>
 
+        <article class="work">
+          <h4>Data Engineering</h4>
+          <p>Completed the Azure Data Engineering training programme and supported client data workflows.</p>
+          <ul>
+            <li>Ingestion and processing pipelines with Azure Data Factory and Databricks.</li>
+          </ul>
+          <ul class="tagline"><li>ADF</li><li>Databricks</li><li>Snowflake</li></ul>
+        </article>
+      </div>
+    </article>
+  </div>
+</section>
 
-			<!-- my skills -->
-			<section class="my-skills" id="skills" data-aos="fade-up">
-				<div class="container">
-					<article>
-						<p class="subtitle">My Skills</p>
-						<h2 class="title">Language & Technologies</h2>
-						
-					</article>
-					<ul>
-						
-						<li>Python</li>
-						<li>C/C++</li>
-						<li>Java</li>
-						<li>PHP</li>
-						<li>LangChain</li>
-						<li>Tensorflow</li>
-						<li>Pytorch</li>
-						<li>Scikit-learn</li>
-						<li>FastAPI</li>
-						<li>Flutter</li>
-						<li>React Js</li>
-						<li>Javascript and Typescript</li>
-						<li>PostgreSQL</li>
-						<li>Firebase</li>
-						<li>Redis</li>
-						<li>Snowflake</li>
-						<li>Databricks</li>
-						<li>Ollama</li>
-						<li>Git and Version control</li>
-						<li>MLFlow</li>
-						
-					</ul>
-				</div>
-			</section>
+<!-- ================= PROJECTS ================= -->
+<section id="projects" class="section">
+  <div class="shell">
+    <p class="section-label">04 &mdash; Selected work</p>
+    <h2 class="section-title">Projects</h2>
+    <p class="section-intro">Personal and open-source work. Everything below is on GitHub.</p>
 
+    <div class="proj-list">
 
-			<!-- others -->
-					<section class="other-noteworthy-project" id="achievements" data-aos="fade-up">
-						<h3>Achievements and Certificates</h3>
-						<ul class="other-projects">
-							<li>
-								<a
-									href="assets/deans.jpg"
-									target="_blank"
-									rel="noreferrer"
-									><img
-										src="./assets/deans.jpg"
-										alt="deans" />
-									<div>
-										<h4>DEANS Awards</h4>
-										<p>
-											Awarded for academic excellence by achieving a GPA of <b>3.83/4.0</b>.
-										</p>
-										<ul>
-											<li>2019-2020</li>
-										</ul>
-									</div></a
-								>
-							</li>
-							<li>
-								<a
-									href="#"
-									target="_blank"
-									rel="noreferrer"
-									>
-									<img
-										src="./assets/ikpc.jpeg"
-										alt="ikpc_pic" />
-									<div>
-										<h4>7th at Intra KUET Programming Contest</h4>
-										<p>
-											Our team placed 7th out of 87 teams in the programming contest.
-										</p>
-										<ul>
-											<li>2022</li>
-										</ul>
-									</div></a
-								>
-							</li>
-							<li>
-								<a
-									href="#"
-									target="_blank"
-									rel="noreferrer"
-									>
-									<img
-										src="./assets/hackathon.JPG"
-										alt="hackathon" />
-									<div>
-										<h4>5th at Poridhi AI Engineering Hackathon</h4>
-										<p>
-											Our team placed 5th out of 80 competing teams in the hackathon.
-										</p>
-										<ul>
-											<li>2022</li>
-										</ul>
-									</div></a
-								>
-							</li>
-							<li>
-								<a
-									href="https://codeforces.com/profile/WahidmShafin"
-									target="_blank"
-									rel="noreferrer"
-									>
-									<img
-										src="./assets/cf.png"
-										alt="codeforces" />
-									<div>
-										<h4>Codeforces</h4>
-										<p>
-											Specialist, solved over 650 problems with max rating of 1493.
-										</p>
-										<ul>
-											<li>2019-2023</li>
-										</ul>
-									</div></a
-								>
-							</li>
-							<li>
-								<a
-									href="https://www.codechef.com/users/wahidmshafin"
-									target="_blank"
-									rel="noreferrer"
-									>
-									<img
-										src="./assets/codechef.png"
-										alt="codechef" />
-									<div>
-										<h4>Codechef</h4>
-										<p>
-											4 start coder, with max rating of 1864.
-										</p>
-										<ul>
-											<li>2019-2023</li>
-										</ul>
-									</div></a
-								>
-							</li>
-							<li>
-								<a
-									href="assets/Algorithmic Toolbox.pdf"
-									target="_blank"
-									rel="noreferrer"
-									>
-									<img
-										src="./assets/certificate-1.png"
-										alt="algorithm" />
-									<div>
-										<h4>Coursera - Algorithmic Toolbox</h4>
-										<p>
-											Completed the online credit course authored by University of California San Diego.
-										</p>
-										<ul>
-											<li>2020</li>
-										</ul>
-									</div></a
-								>
-							</li>
-							<li>
-								<a
-									href="assets/Data Structure.pdf"
-									target="_blank"
-									rel="noreferrer"
-									>
-									<img
-										src="./assets/datastructure.png"
-										alt="datastructure" />
-									<div>
-										<h4>Coursera - Data Structures</h4>
-										<p>
-											Completed the online credit course authored by University of California San Diego.
-										</p>
-										<ul>
-											<li>2020</li>
-										</ul>
-									</div></a
-								>
-							</li>
-							<li>
-								<a
-									href="assets/Java For android.pdf"
-									target="_blank"
-									rel="noreferrer"
-									>
-									<img
-										src="./assets/javaCourse.png"
-										alt="javacourse" />
-									<div>
-										<h4>Coursera - Java For Android</h4>
-										<p>
-											Completed the online credit course authored by Vanderbilt University.
-										</p>
-										<ul>
-											<li>2020</li>
-										</ul>
-									</div></a
-								>
-							</li>
-						</ul>
-					</section>
-				</div>
-			</section>
+      <article class="proj">
+        <a class="proj-media" href="https://github.com/Wahidmshafin/Intent-based-product-search" target="_blank" rel="noreferrer">
+          <img src="./assets/Intent.png" alt="Intent based product search architecture" loading="lazy" />
+        </a>
+        <div class="proj-body">
+          <p class="proj-date mono">March 2025</p>
+          <h3>Intent Based Product Search</h3>
+          <p>An intent-aware retrieval system for e-commerce: it reads search history and rewrites the query before it ever touches the index.</p>
+          <ul>
+            <li>Fine-tuned Llama 3.2 1B Instruct for intent detection and query rewriting.</li>
+            <li>Hybrid dense and lexical search holding <strong>sub-2s latency</strong>.</li>
+          </ul>
+          <ul class="tagline"><li>LangChain</li><li>PGVector</li><li>Ollama</li><li>Redis</li><li>Langsmith</li><li>Docker</li></ul>
+          <p class="proj-links"><a href="https://github.com/Wahidmshafin/Intent-based-product-search" target="_blank" rel="noreferrer">GitHub &rarr;</a></p>
+        </div>
+      </article>
 
-			<!-- contact section -->
-			<section class="contact" data-aos="fade-up">
-				<div class="container">
-					<p class="subtitle">Have a project? or just looking to hire?</p>
-					<h2 class="title">Let's Work Together</h2>
-					<p class="info">
-						Feel free to reach out if you're looking to hire, just want to
-						connect or see if we can build something amazing together.
-					</p>
+      <article class="proj">
+        <a class="proj-media" href="https://github.com/Wahidmshafin/NSNUNet" target="_blank" rel="noreferrer">
+          <img src="./assets/main.svg" alt="NSNUNet model architecture diagram" loading="lazy" />
+        </a>
+        <div class="proj-body">
+          <p class="proj-date mono">February 2024</p>
+          <h3>NSNUNet &amp; Open-CD extensions</h3>
+          <p>Reference implementation of the ICCIT paper, plus a fork of the Open-CD change detection framework.</p>
+          <ul>
+            <li>Added multi-spectral loading so models can read imagery with more than three channels.</li>
+            <li>Batch evaluation of every model in the framework against a single dataset.</li>
+          </ul>
+          <ul class="tagline"><li>PyTorch</li><li>OpenMM</li><li>Rasterio</li></ul>
+          <p class="proj-links">
+            <a href="https://github.com/Wahidmshafin/NSNUNet" target="_blank" rel="noreferrer">NSNUNet &rarr;</a>
+            <a href="https://github.com/Wahidmshafin/open-cd" target="_blank" rel="noreferrer">Open-CD fork &rarr;</a>
+          </p>
+        </div>
+      </article>
 
-					<div>
-						<a href="mailto:wahidmshafin@gmail.com" class="mail-link hover-effect"
-							>Get in touch →</a
-						>
-						<!-- <small>(or copy) samwill300@gmail.com</small> -->
-					</div>
-				</div>
-			</section>
-		</main>
+      <article class="proj">
+        <a class="proj-media" href="https://github.com/Wahidmshafin/dokan_koi" target="_blank" rel="noreferrer">
+          <img src="./assets/dokan_koi.png" alt="Dokan Koi app screens" loading="lazy" />
+        </a>
+        <div class="proj-body">
+          <p class="proj-date mono">July 2023</p>
+          <h3>Dokan Koi?</h3>
+          <p>A Flutter marketplace app that connects shoppers with nearby stores, and stores with everyone in their area.</p>
+          <ul>
+            <li>Shop location tracking on Google Maps, live updates, and push notifications.</li>
+            <li>Firebase for auth, data, and file storage.</li>
+          </ul>
+          <ul class="tagline"><li>Flutter</li><li>Firebase</li><li>Google Maps</li></ul>
+          <p class="proj-links"><a href="https://github.com/Wahidmshafin/dokan_koi" target="_blank" rel="noreferrer">GitHub &rarr;</a></p>
+        </div>
+      </article>
+    </div>
 
-		<footer class="footer" id="contact">
-			<div class="container">
-				<p>&copy; <span id="date"></span> Wahid Mahmood</p>
-				<div>
-					<ul>
-						<li>
-							<a
-								href="https://github.com/Wahidmshafin"
-								rel="noreferrer"
-								target="_blank"
-								class="hover-effect"
-								>github</a
-							>
-						</li>
-						<li>
-							<a
-								href="https://www.linkedin.com/in/wahidmshafin"
-								rel="noreferrer"
-								target="_blank"
-								class="hover-effect"
-								>linkedin</a
-							>
-						</li>
-					</ul>
-					<a href="#top" class="top">
-						<p class="scroll">scroll <span>to top</span></p>
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							width="24"
-							height="24"
-							viewBox="0 0 24 24"
-							style="fill: currentColor">
-							<title>scroll to top</title>
-							<path
-								d="m6.293 11.293 1.414 1.414L12 8.414l4.293 4.293 1.414-1.414L12 5.586z"></path>
-							<path
-								d="m6.293 16.293 1.414 1.414L12 13.414l4.293 4.293 1.414-1.414L12 10.586z"></path>
-						</svg>
-					</a>
-				</div>
-			</div>
-		</footer>
-	</body>
+    <h3 class="minor-heading">Also on GitHub</h3>
+    <ul class="mini-list">
+      <li>
+        <h4><a href="https://github.com/Wahidmshafin/Score-Inside" target="_blank" rel="noreferrer">Score Inside</a></h4>
+        <p>Android app for football fixtures, standings, and match detail, fed by a REST sports API.</p>
+        <span class="mono">Java &middot; Retrofit2</span>
+      </li>
+      <li>
+        <h4><a href="https://github.com/Wahidmshafin/Cardiac-Recorder-74-75-" target="_blank" rel="noreferrer">Cardio Recorder</a></h4>
+        <p>Blood pressure and heart rate logging that flags unusual readings back to the user.</p>
+        <span class="mono">Java &middot; Firebase</span>
+      </li>
+      <li>
+        <h4><a href="https://github.com/Wahidmshafin/2048---Human-vs-AI" target="_blank" rel="noreferrer">2048 &mdash; Human vs AI</a></h4>
+        <p>A playable 2048 with a search-based AI opponent to compare against human play.</p>
+        <span class="mono">Python</span>
+      </li>
+      <li>
+        <h4><a href="https://github.com/Wahidmshafin/Graphics-Project-Escape-Room" target="_blank" rel="noreferrer">Escape Room</a></h4>
+        <p>Computer graphics coursework project: an interactive room rendered from scratch.</p>
+        <span class="mono">C &middot; OpenGL</span>
+      </li>
+      <li>
+        <h4><a href="https://github.com/Wahidmshafin/Real-Estate-BD" target="_blank" rel="noreferrer">Real Estate BD</a></h4>
+        <p>Property listing site where sellers post apartments and buyers search the local market.</p>
+        <span class="mono">PHP &middot; MySQL</span>
+      </li>
+      <li>
+        <h4><a href="https://github.com/Wahidmshafin" target="_blank" rel="noreferrer">34 repositories &rarr;</a></h4>
+        <p>Coursework, contest solutions, and experiments from 2019 onwards.</p>
+        <span class="mono">github.com/Wahidmshafin</span>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section id="skills" class="band">
+  <div class="shell">
+    <p class="section-label">05 &mdash; Toolkit</p>
+    <h2 class="section-title">Skills</h2>
+    <div class="skill-grid">
+      <div class="skill-group">
+        <h3>Languages</h3>
+        <ul><li>Python</li><li>C / C++</li><li>Java</li><li>SQL</li></ul>
+      </div>
+      <div class="skill-group">
+        <h3>Machine learning</h3>
+        <ul><li>PyTorch</li><li>TensorFlow</li><li>Scikit-learn</li><li>Transformers</li><li>OpenCV</li><li>statsmodels</li></ul>
+      </div>
+      <div class="skill-group">
+        <h3>LLM &amp; agents</h3>
+        <ul><li>LangChain</li><li>LangGraph</li><li>CrewAI</li><li>Ollama</li><li>LM Studio</li><li>Langfuse</li><li>Langsmith</li></ul>
+      </div>
+      <div class="skill-group">
+        <h3>Data &amp; vector stores</h3>
+        <ul><li>PostgreSQL</li><li>PGVector</li><li>Qdrant</li><li>Neo4j</li><li>Redis</li><li>Snowflake</li><li>Databricks</li></ul>
+      </div>
+      <div class="skill-group">
+        <h3>Engineering</h3>
+        <ul><li>FastAPI</li><li>Docker</li><li>MLflow</li><li>Git / GitLab</li><li>Azure Data Factory</li><li>React</li><li>Flutter</li></ul>
+      </div>
+      <div class="skill-group">
+        <h3>Coursework</h3>
+        <ul><li>NLP</li><li>Data Mining</li><li>Image Processing &amp; CV</li><li>Artificial Intelligence</li><li>Linear Algebra</li><li>Statistics</li></ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ================= AWARDS ================= -->
+<section id="awards" class="section">
+  <div class="shell">
+    <p class="section-label">06 &mdash; Record</p>
+    <h2 class="section-title">Awards &amp; certificates</h2>
+
+    <ul class="award-list">
+      <li>
+        <span class="award-year mono">2019&ndash;20</span>
+        <div>
+          <h3>Dean&rsquo;s Award, KUET</h3>
+          <p>Given for a yearly GPA of 3.75 or above. Achieved 3.83/4.0.</p>
+          <a class="chip-link" href="assets/deans.jpg" target="_blank" rel="noreferrer">Certificate</a>
+        </div>
+      </li>
+      <li>
+        <span class="award-year mono">2025</span>
+        <div>
+          <h3>5th &mdash; Poridhi AI Engineering Hackathon</h3>
+          <p>Placed 5th out of 80 competing teams.</p>
+        </div>
+      </li>
+      <li>
+        <span class="award-year mono">2022</span>
+        <div>
+          <h3>7th &mdash; Intra KUET Programming Contest</h3>
+          <p>Placed 7th out of 85 teams.</p>
+        </div>
+      </li>
+      <li>
+        <span class="award-year mono">2019&ndash;23</span>
+        <div>
+          <h3>Competitive programming</h3>
+          <p>Codeforces Specialist, max rating 1493, 650+ problems solved. CodeChef 4&#9733;, max rating 1864.</p>
+          <a class="chip-link" href="https://codeforces.com/profile/WahidmShafin" target="_blank" rel="noreferrer">Codeforces</a>
+          <a class="chip-link" href="https://www.codechef.com/users/wahidmshafin" target="_blank" rel="noreferrer">CodeChef</a>
+        </div>
+      </li>
+      <li>
+        <span class="award-year mono">2025</span>
+        <div>
+          <h3>IELTS 7.5 overall</h3>
+          <p>Academic module, taken August 2025.</p>
+        </div>
+      </li>
+      <li>
+        <span class="award-year mono">2020</span>
+        <div>
+          <h3>Coursera coursework</h3>
+          <p>Algorithmic Toolbox and Data Structures (UC San Diego), Java for Android (Vanderbilt).</p>
+          <a class="chip-link" href="assets/Algorithmic Toolbox.pdf" target="_blank" rel="noreferrer">Algorithms</a>
+          <a class="chip-link" href="assets/Data Structure.pdf" target="_blank" rel="noreferrer">Data structures</a>
+          <a class="chip-link" href="assets/Java For android.pdf" target="_blank" rel="noreferrer">Java</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<!-- ================= REFERENCES + CONTACT ================= -->
+<section id="contact" class="band band-last">
+  <div class="shell">
+    <p class="section-label">07 &mdash; References</p>
+    <h2 class="section-title">People who know my work</h2>
+
+    <ul class="ref-list">
+      <li>
+        <h3>Dr. Sk. Md. Masudul Ahsan</h3>
+        <p class="ref-role">Academic supervisor</p>
+        <p>Professor, Department of Computer Science &amp; Engineering<br />Khulna University of Engineering &amp; Technology</p>
+        <a href="mailto:smahsan@cse.kuet.ac.bd">smahsan@cse.kuet.ac.bd</a>
+      </li>
+      <li>
+        <h3>Dr. Nazmul Siddique</h3>
+        <p class="ref-role">Research collaborator</p>
+        <p>Senior Lecturer, School of Computing, Engineering and Intelligent Systems<br />Ulster University</p>
+        <a href="mailto:nh.siddique@ulster.ac.uk">nh.siddique@ulster.ac.uk</a>
+      </li>
+    </ul>
+
+    <div class="contact-card">
+      <div>
+        <h2 class="contact-title">Get in touch</h2>
+        <p class="contact-copy">
+           I welcome any opportunity to connect — whether it's a question about my work   
+		   or simply a conversation.
+        </p>
+      </div>
+      <div class="contact-actions">
+        <a class="btn btn-solid" href="mailto:wahidmshafin@gmail.com">wahidmshafin@gmail.com</a>
+        <button class="btn btn-outline" id="copy-email" type="button" data-email="wahidmshafin@gmail.com">Copy address</button>
+        <a class="btn btn-quiet" href="assets/Academic_CV.pdf" target="_blank" rel="noreferrer">CV (PDF)</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="shell footer-row">
+    <p>&copy; <span id="year"></span> Wahid Mahmood &middot; Dhaka, Bangladesh</p>
+    <ul>
+      <li><a href="https://github.com/Wahidmshafin" target="_blank" rel="noreferrer">GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/wahidmshafin" target="_blank" rel="noreferrer">LinkedIn</a></li>
+      <li><a href="https://www.researchgate.net/profile/Wahid-Mahmood-Shafin" target="_blank" rel="noreferrer">ResearchGate</a></li>
+      <li><a href="#top">Back to top &uarr;</a></li>
+    </ul>
+  </div>
+</footer>
+
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+<script src="script.js" defer></script>
+</body>
 </html>
