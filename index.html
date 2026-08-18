@@ -71,12 +71,12 @@
         <li><a href="#skills" class="nav-link">Skills</a></li>
         <li><a href="#awards" class="nav-link">Awards</a></li>
         <li><a href="#contact" class="nav-link">Contact</a></li>
-        <li class="nav-cv"><a href="assets/Academic_CV.pdf" target="_blank" rel="noreferrer">Download CV (PDF)</a></li>
+        <li class="nav-cv"><a href="assets/Wahid_CV.pdf" target="_blank" rel="noreferrer">Download CV (PDF)</a></li>
       </ul>
     </nav>
 
     <div class="header-tools">
-      <a class="btn btn-quiet" href="assets/Academic_CV.pdf" target="_blank" rel="noreferrer">CV (PDF)</a>
+      <a class="btn btn-quiet" href="assets/Wahid_CV.pdf" target="_blank" rel="noreferrer">CV (PDF)</a>
       <button class="icon-btn" id="theme-toggle" type="button" aria-label="Switch to dark theme">
         <svg class="icon-sun" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><g stroke="currentColor" stroke-width="1.7" stroke-linecap="round"><path d="M12 2.6v2.2M12 19.2v2.2M2.6 12h2.2M19.2 12h2.2M5.2 5.2l1.6 1.6M17.2 17.2l1.6 1.6M18.8 5.2l-1.6 1.6M6.8 17.2l-1.6 1.6"/></g></svg>
         <svg class="icon-moon" viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M20 14.2A8.2 8.2 0 0 1 9.8 4a8.4 8.4 0 1 0 10.2 10.2z" fill="currentColor"/></svg>
@@ -101,8 +101,8 @@
       </p>
 
       <ul class="interest-tags" aria-label="Research interests">
-        <li>Computer Vision</li><li>Explainable AI</li><li>Graph RAG</li><li>Agentic AI</li>
-        <li>Reinforcement Learning</li><li>Human&ndash;AI Interaction</li>
+        <li>Computer Vision</li><li>Explainable AI</li>
+        <li>Human&ndash;AI Interaction</li><li>Agentic AI</li>
       </ul>
 
       <div class="hero-actions">
@@ -150,28 +150,25 @@
     </div>
     <div>
       <p class="section-label">01 &mdash; About</p>
-      <h2 class="section-title">Research first, shipped anyway</h2>
+      <h2 class="section-title">Research that ships </h2>
       <div class="prose">
         <p>
-          I am a Machine Learning Engineer at ReliSource in Dhaka, and a Computer Science
+          I am a Machine Learning Engineer at ReliSource Technologies Ltd. and a Computer Science
           graduate of Khulna University of Engineering &amp; Technology (KUET).
         </p>
         <p>
-          My research started with a simple question: how much farmland has Bangladesh lost, and
-          can a model see it from orbit without an army of annotators? That led to a labelled
-          change detection dataset, a semi-supervised labelling method, and a new attention-based
-          segmentation architecture &mdash; two IEEE papers as first author.
+          It started with a problem: detecting agricultural land change in Bangladesh. No usable
+      dataset existed, so I built one. Labeling change 
+          by hand on low-resolution satellite image was time costly and really difficult, so I proposed a semi-supervised approach. To check that
+      it held up, I trained state-of-the-art methods against it &mdash; which meant extending
+      an open-source library to make them fit. Then I designed a new change detection
+      architecture of my own. Two IEEE papers came out of that work, both as first author.
         </p>
-        <p>
-          At work I build and deploy agentic AI system, complex RAG system, knowledge graph under real latency 
-		  and accuracy budgets across healthcare and biomedical domain. My current interest sits where the
-          two meet &mdash; models that can explain what they saw, and agents whose decisions can be
-          audited.
-        </p>
-        <p>
-          Outside all this I play chess and follow football, both of which are mostly an excuse to
-          think about search under uncertainty.
-        </p>
+        <p>Today I build and deploy agentic AI systems, complex RAG pipelines, and knowledge graphs across healthcare and biomedicine &mdash;
+          under real latency and accuracy budgets, not
+    benchmark ones. I've also worked on drug discovery pipelines, digital twins, and
+    precision medicine. Away from the screen, I play chess and follow football matches.
+        </p> 
       </div>
 
       <dl class="facts">
@@ -203,8 +200,10 @@
           <p class="pub-authors"><strong>W. Mahmood</strong>, N. Hasan, M. Mahadi, S. Shuvo, T. Joty, N. Siddique</p>
           <p class="pub-venue">Manuscript in preparation &mdash; May 2026</p>
           <ul class="pub-points">
-            <li>Formulated a methodology to assess the interpretability and decision-making rationale of both deep learning architectures and vision&ndash;language models.</li>
-            <li>Designed an evaluation pipeline covering image preprocessing, specialised dataset curation, and a novel hybrid model as a comparative baseline.</li>
+            <li>Formulated a methodology to compare interpretability and find out if deep learning architectures and
+            vision-language models are properly highlighting the correct features from images by reflecting their
+            generalisations, or whether they are overfitting or hallucinating.</li>
+            <li>Designed the evaluation pipeline end-to-end: image preprocessing, dataset curation, prompt engineering and DL model trainning.</li>
           </ul>
           <ul class="pub-tags"><li>Explainable AI</li><li>VLMs</li><li>Medical imaging</li><li>Benchmarking</li></ul>
         </div>
@@ -218,15 +217,16 @@
           <p class="pub-authors"><strong>W. Mahmood</strong>, T. Joty, S. M. M. Ahsan</p>
           <p class="pub-venue">IEEE International Conference on Computer and Information Technology (<em>ICCIT</em>), December 2024</p>
           <ul class="pub-points">
-            <li>Proposed a neighbourhood-attention UNet architecture that improves accuracy and efficiency in remote sensing change detection.</li>
-            <li>Evaluated on both low- and high-resolution datasets, outperforming the compared baselines on each.</li>
+            <li>Proposed a neighbourhood attention-based Siamese nested UNet for remote sensing change detection</li>
+            <li>Achieved 88.43% F1 (+1.25 points) on LEVIR-CD and 92.14% F1 (+0.21 points) on the Agricultural Land dataset (ours) over baseline SNUNet.</li>
+            <li>Outperformed established baselines (SNUNet, IFN, FC-Siam-diff, FC-Siam-conc) across both benchmarks.</li>
           </ul>
           <ul class="pub-tags"><li>Change detection</li><li>Attention</li><li>Segmentation</li><li>PyTorch</li></ul>
           <div class="pub-actions">
             <a class="chip-link" href="https://doi.org/10.1109/ICCIT64611.2024.11022454" target="_blank" rel="noreferrer">DOI <span class="mono">10.1109/ICCIT64611.2024.11022454</span></a>
 			<a class="chip-link chip-pdf" href="https://www.researchgate.net/publication/392563924_NSNUNet_A_Neighbourhood_Attention-Based_Siamese_Nested_Unet_for_Change_Detection_using_Satellite_Images" target="_blank" rel="noreferrer">Full text</a>
             <a class="chip-link" href="https://github.com/Wahidmshafin/NSNUNet" target="_blank" rel="noreferrer">Code</a>
-            <button class="chip-link chip-btn" type="button" data-bibtex="nsnunet">Copy BibTeX</button>
+            <!-- <button class="chip-link chip-btn" type="button" data-bibtex="nsnunet">Copy BibTeX</button> -->
           </div>
         </div>
       </li>
@@ -239,15 +239,16 @@
           <p class="pub-authors"><strong>W. Mahmood</strong>, S. M. M. Ahsan</p>
           <p class="pub-venue">IEEE International Conference on Computing, Communication, and Intelligent Systems (<em>COMPAS</em>), September 2024</p>
           <ul class="pub-points">
-            <li>Developed a semi-supervised approach for agricultural land change detection that cuts the manual annotation effort substantially.</li>
-            <li>Benchmarked the resulting dataset against several deep learning methods; presented as a poster at the conference.</li>
+            <li>Developed a semi-supervised pipeline combining machine learning (XGBoost) with iterative morphological
+              refinement, eliminating the bottleneck of manual pixel-level annotation for multispectral Sentinel-2 imagery</li>
+            <li>Created a multi-temporal remote sensing benchmark of 500+ image pairs over Bangladesh, validating deep
+              learning architectures to quantify an 8.35% (19.86 km2) reduction in regional agricultural land between 2018 and 2022.</li>
           </ul>
           <ul class="pub-tags"><li>Semi-supervised</li><li>Sentinel-2</li><li>Dataset</li><li>Remote sensing</li></ul>
           <div class="pub-actions">
             <a class="chip-link" href="https://doi.org/10.1109/COMPAS60761.2024.10795941" target="_blank" rel="noreferrer">DOI <span class="mono">10.1109/COMPAS60761.2024.10795941</span></a>
             <a class="chip-link chip-pdf" href="https://www.researchgate.net/publication/387258006_A_Semi-Supervised_Approach_For_Detecting_Agricultural_Land_Reduction_In_Bangladesh_Using_Satellite_Images" target="_blank" rel="noreferrer">Full text</a>
 			<a class="chip-link" href="assets/Poster-prototype.pdf" target="_blank" rel="noreferrer">Poster</a>
-            <button class="chip-link chip-btn" type="button" data-bibtex="compas">Copy BibTeX</button>
           </div>
         </div>
       </li>
@@ -263,9 +264,9 @@
         <h3 class="thesis-title">Study on Agricultural Land Reduction in Bangladesh using Satellite Images</h3>
         <p class="thesis-sup">Supervisor: <strong>Dr. Sk. Md. Masudul Ahsan</strong>, Professor, Dept. of CSE, KUET</p>
         <ul class="pub-points">
-          <li>Collected and preprocessed raw Sentinel-2 imagery covering Bangladesh.</li>
-          <li>Built an agricultural land change detection dataset of 500+ image pairs.</li>
-          <li>Explored XGBoost and SVM baselines, and extended the open-source Open-CD framework to handle imagery with more than three channels.</li>
+          <li>Built a Sentinel-2 satellite image based agricultural land change detection dataset of 500+ image pairs and benchmarked it against deep learning baselines</li>
+          <li>Extended the open-source Open-CD framework to fetch our dataset and validate it with the deep learning models.</li>
+          <li>The work produced two conference papers.</li>
         </ul>
         <div class="pub-actions">
           <a class="chip-link" href="https://github.com/Wahidmshafin/open-cd" target="_blank" rel="noreferrer">Open-CD fork</a>
@@ -295,9 +296,10 @@
           <h4>Protocol Extractor</h4>
           <p>An agentic RAG pipeline that pulls structured information out of complex clinical trial protocols.</p>
           <ul>
-            <li>Markdown header-based chunking plus cross-encoder reranking, reaching <strong>85% accuracy</strong> on BERTScore and semantic similarity.</li>
-            <li>Automated response validation and a human-in-the-loop review path that feeds few-shot examples back in.</li>
-            <li>Runs fully offline for data-sensitive clients.</li>
+            <li>Architected an agentic Retrieval-Augmented Generation (RAG) pipeline to automate information extraction from complex clinical trial protocols.</li>
+            <li>ntegrated intelligent markdown header-based chunking, cross-encoder reranking, and other methodologies to optimize accuracy <strong>up to 85%</strong> on BERTScore and semantic similarity metrics.</li>
+            <li>Included automated response validation and a Human-in-the-Loop (HITL) framework for gradual improvement using few-shot learning.</li>
+            <li>Full offline inference backend orchestrated via LangGraph, FastAPI, LM Studio, and Qdrant</li>
           </ul>
           <ul class="tagline"><li>LangGraph</li><li>FastAPI</li><li>Qdrant</li><li>LM Studio</li></ul>
         </article>
@@ -306,9 +308,8 @@
           <h4>Agentic Medical Inventory Manager</h4>
           <p>End-to-end demand forecasting and restocking for medical inventory with sparse history.</p>
           <ul>
-            <li>Time-series forecasting paired with an LLM decision loop for restocking calls.</li>
-            <li>News, weather, and holiday signals become contextual demand multipliers.</li>
-            <li>Integer linear programming turns forecasts into budget-constrained purchase orders.</li>
+            <li>Built an end-to-end forecasting and restocking platform that pairs time-series forecasting with an agentic LLM decision loop</li>
+            <li>Pulled news, weather, and holiday data to compute contextual demand multipliers and used integer Linear Programming to generate budget-constrained restocking recommendations</li>
           </ul>
           <ul class="tagline"><li>Forecasting</li><li>Agentic AI</li><li>ILP</li><li>statsmodels</li></ul>
         </article>
@@ -363,8 +364,9 @@
           <h3>Intent Based Product Search</h3>
           <p>An intent-aware retrieval system for e-commerce: it reads search history and rewrites the query before it ever touches the index.</p>
           <ul>
-            <li>Fine-tuned Llama 3.2 1B Instruct for intent detection and query rewriting.</li>
-            <li>Hybrid dense and lexical search holding <strong>sub-2s latency</strong>.</li>
+            <li>Engineered an intent-aware product retrieval system for e-commerce on a fine-tuned Llama 3.2 1B model.</li>
+            <li>Designed a hybrid search architecture with <strong>sub-2000ms</strong> query latency, and
+                instrumented it with LangSmith tracing to track retrieval and answer quality.</strong>.</li>
           </ul>
           <ul class="tagline"><li>LangChain</li><li>PGVector</li><li>Ollama</li><li>Redis</li><li>Langsmith</li><li>Docker</li></ul>
           <p class="proj-links"><a href="https://github.com/Wahidmshafin/Intent-based-product-search" target="_blank" rel="noreferrer">GitHub &rarr;</a></p>
@@ -557,6 +559,12 @@
         <p>Senior Lecturer, School of Computing, Engineering and Intelligent Systems<br />Ulster University</p>
         <a href="mailto:nh.siddique@ulster.ac.uk">nh.siddique@ulster.ac.uk</a>
       </li>
+      <li>
+        <h3>MD Fahimul Islam</h3>
+        <p class="ref-role">Technical Lead</p>
+        <p>Principal Software Engineer (AI/ML)<br />ReliSource Technologies Ltd.</p>
+        <a href="mailto:fislam@relisource.com">fislam@relisource.com</a>
+      </li>
     </ul>
 
     <div class="contact-card">
@@ -570,7 +578,7 @@
       <div class="contact-actions">
         <a class="btn btn-solid" href="mailto:wahidmshafin@gmail.com">wahidmshafin@gmail.com</a>
         <button class="btn btn-outline" id="copy-email" type="button" data-email="wahidmshafin@gmail.com">Copy address</button>
-        <a class="btn btn-quiet" href="assets/Academic_CV.pdf" target="_blank" rel="noreferrer">CV (PDF)</a>
+        <a class="btn btn-quiet" href="assets/Wahid_CV.pdf" target="_blank" rel="noreferrer">CV (PDF)</a>
       </div>
     </div>
   </div>
