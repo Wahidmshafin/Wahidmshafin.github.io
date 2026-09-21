@@ -5,8 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <title>Wahid Mahmood — Machine Learning Engineer &amp; Researcher</title>
 
-<meta name="description" content="Wahid Mahmood is a Machine Learning Engineer at ReliSource and a KUET CSE graduate. He works on remote sensing change detection, explainable AI, and agentic LLM systems, with two IEEE conference papers as first author." />
-<meta name="keywords" content="Wahid Mahmood, Machine Learning Engineer, change detection, remote sensing, explainable AI, agentic AI, LLM, NLP, KUET, ReliSource" />
+<meta name="description" content="Wahid Mahmood is a Machine Learning Engineer at ReliSource and a KUET CSE graduate." />
+<meta name="keywords" content="Wahid Mahmood, Machine Learning Engineer, explainable AI, agentic AI, computer vision, LLM, LLM Security, KUET, ReliSource" />
 <meta name="author" content="Wahid Mahmood" />
 <meta name="robots" content="index, follow" />
 <link rel="canonical" href="https://wahidmshafin.github.io/" />
@@ -41,7 +41,7 @@
   "worksFor": { "@type": "Organization", "name": "ReliSource Technologies Ltd" },
   "alumniOf": { "@type": "CollegeOrUniversity", "name": "Khulna University of Engineering & Technology (KUET)" },
   "address": { "@type": "PostalAddress", "addressLocality": "Dhaka", "addressCountry": "BD" },
-  "knowsAbout": ["Natural Language Processing","Explainable AI","Large Language Models","Agentic AI","Reinforcement Learning","Human-AI Interaction","Remote Sensing Change Detection"],
+  "knowsAbout": ["Explainable AI","Large Language Models","Agentic AI","Natural Language Processing","Human-AI Interaction", "Computer Vision", "Knowledge Graph", "Remote Sensing"],
   "sameAs": [
     "https://github.com/Wahidmshafin",
     "https://www.linkedin.com/in/wahidmshafin",
@@ -99,20 +99,21 @@
       <p class="hero-lede">
      A Machine Learning Engineer specializing in both cutting-edge research and intelligent system development that solve real world problems.
       </p>
-
+<!-- 
       <ul class="interest-tags" aria-label="Research interests">
         <li>Computer Vision</li><li>Explainable AI</li>
         <li>Human&ndash;AI Interaction</li><li>Agentic AI</li>
-      </ul>
+      </ul> -->
 
       <div class="hero-actions">
         <a class="btn btn-solid" href="mailto:wahidmshafin@gmail.com">Email me</a>
-        <a class="btn btn-outline" href="assets/Academic_CV.pdf" target="_blank" rel="noreferrer">Download CV</a>
+        <a class="btn btn-outline" href="assets/Wahid_CV.pdf" target="_blank" rel="noreferrer">Download CV</a>
       </div>
 
       <ul class="hero-links">
         <li><a href="https://scholar.google.com/citations?user=eUgvG8AAAAAJ&hl=en" target="_blank" rel="noreferrer">Google Scholar</a></li>
         <li><a href="https://www.researchgate.net/profile/Wahid-Mahmood-Shafin" target="_blank" rel="noreferrer">ResearchGate</a></li>
+        <li><a href="https://orcid.org/0009-0004-7901-9413" target="_blank" rel="noreferrer">ORCID</a></li>
         <li><a href="https://github.com/Wahidmshafin" target="_blank" rel="noreferrer">GitHub</a></li>
         <li><a href="https://www.linkedin.com/in/wahidmshafin" target="_blank" rel="noreferrer">LinkedIn</a></li>
       </ul>
@@ -158,13 +159,12 @@
         </p>
         <p>
           My research journey started with a problem: detecting agricultural land change in Bangladesh. No usable
-      dataset existed, so I built one. Labeling change 
-          by hand on low-resolution satellite image was time costly and really difficult, so I proposed a semi-supervised approach. To check that
-      it held up, I trained state-of-the-art methods against it &mdash; which meant extending
-      an open-source library to make them fit. Then I designed a new change detection
-      architecture of my own. Two IEEE papers came out of that work, both as first author.
+      dataset existed, so I built one. Manual labeling on low-resolution satellite image was difficult and slow. So, I proposed a semi-supervised approach to solve this issue.
+      I modified open source library to train and test state of the arts method on my dataset.
+      Then I proposed novel change detection architecture NSNUnet. Two IEEE papers came out of that work, both as first author. I am currently working on a third manuscript 
+      whether deep learning models rely on the right image features, and whether VLMs can explain predictions without hallucinating.
         </p>
-        <p>Today I build and deploy agentic AI systems, complex RAG pipelines, and knowledge graphs across healthcare and biomedicine &mdash;
+        <p>Today I build and deploy agentic AI systems, complex RAG pipelines, and knowledge graphs across healthcare and biomedicine 
           under real latency and accuracy budgets, not
     benchmark ones. I've also worked on drug discovery pipelines, digital twins, and
     precision medicine. Away from the screen, I play chess and follow football matches.
@@ -196,8 +196,8 @@
       <li class="pub">
         <div class="pub-year"><span>2026</span><em class="pub-status">in prep.</em></div>
         <div class="pub-body">
-          <h3 class="pub-title">Unveiling Overfitting Patterns: Explainable AI-Driven Benchmarking of LLMs, Deep Learning Models, and a Hybrid Framework for Medical Image Classification</h3>
-          <p class="pub-authors"><strong>W. Mahmood</strong>, N. Hasan, M. Mahadi, S. Shuvo, T. Joty, N. Siddique</p>
+          <h3 class="pub-title">DeViLM: Evaluating What Deep Learning Models See and Vision-Language Models Explain in Acute Lymphoblastic Leukemia Classification</h3>
+          <p class="pub-authors"><strong>W. Mahmood</strong>, N. Hasan, M. Mahadi, S. Shuvo, N. Siddique</p>
           <p class="pub-venue">Manuscript in preparation &mdash; May 2026</p>
           <ul class="pub-points">
             <li>Formulated a methodology to compare interpretability and find out if deep learning architectures and
@@ -219,7 +219,7 @@
           <ul class="pub-points">
             <li>Proposed a neighbourhood attention-based Siamese nested UNet for remote sensing change detection</li>
             <li>Achieved 88.43% F1 (+1.25 points) on LEVIR-CD and 92.14% F1 (+0.21 points) on the Agricultural Land dataset (ours) over baseline SNUNet.</li>
-            <li>Outperformed established baselines (SNUNet, IFN, FC-Siam-diff, FC-Siam-conc) across both benchmarks.</li>
+            <li>Outperformed established baselines such as SNUNet, IFN across both benchmarks.</li>
           </ul>
           <ul class="pub-tags"><li>Change detection</li><li>Attention</li><li>Segmentation</li><li>PyTorch</li></ul>
           <div class="pub-actions">
@@ -297,7 +297,7 @@
           <p>An agentic RAG pipeline that pulls structured information out of complex clinical trial protocols.</p>
           <ul>
             <li>Architected an agentic Retrieval-Augmented Generation (RAG) pipeline to automate information extraction from complex clinical trial protocols.</li>
-            <li>ntegrated intelligent markdown header-based chunking, cross-encoder reranking, and other methodologies to optimize accuracy <strong>up to 85%</strong> on BERTScore and semantic similarity metrics.</li>
+            <li>Designed markdown header-based chunking and cross-encoder reranking with keyword-based boosting; 85% of test documents reached a BERTScore and semantic similarity above 0.90 for all fields.</li>
             <li>Included automated response validation and a Human-in-the-Loop (HITL) framework for gradual improvement using few-shot learning.</li>
             <li>Full offline inference backend orchestrated via LangGraph, FastAPI, LM Studio, and Qdrant</li>
           </ul>
